@@ -3,14 +3,23 @@
 A new Flutter project.
 
 ## Getting Started
+This is a simple task management app for gig workers that allows users to create, update, delete, and view tasks. The app should have basic user authentication, local data storage, and an intuitive user interface.
+the features in this app are:
 
-This project is a starting point for a Flutter application.
+1.User Authentication:
+=>Implement user registration and login using Firebase Authentication (email/password).
+=>Display appropriate error messages for invalid credentials.
 
-A few resources to get you started if this is your first Flutter project:
+2.Task Management:
+=>Users should be able to create, edit, delete, and view tasks.
+=>Each task should have the following fields: title, description, due date, and priority (low, medium, high).
+=>Tasks should be stored on firebase/any other backend of your choice.
+=>Include a feature to mark tasks as complete/incomplete.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3.Task Filtering:
+=>Provide the ability to filter tasks by priority and status (completed/incomplete).
+=>Tasks should be displayed in a list format, sorted by due date (earliest to latest).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4.User Interface:
+=>Create a clean and responsive UI with Material Design principles.
+=>Ensure the app is visually appealing on both iOS and Android devices (use appropriate padding, spacing, and colors)
